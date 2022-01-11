@@ -11,7 +11,7 @@ public class GeckoBasics {
 
         WebDriver driver = new FirefoxDriver();
         driver.get("https://demo.nopcommerce.com/");
-        Thread.sleep(5000);
+        Thread.sleep(4000);
         driver.manage().window().maximize();
 
         Thread.sleep(3000);
