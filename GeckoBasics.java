@@ -29,7 +29,7 @@ public class GeckoBasics {
         String title = driver.getTitle();
         System.out.println("title");
 
-        Thread.sleep(5000);
+        Thread.sleep(3000);
 
           driver.close();
     }
